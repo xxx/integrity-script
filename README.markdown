@@ -20,7 +20,7 @@ This was originally conceived so the author could have Integrity talk to a scrip
 
 # Stuff
 
-* There are security implications here in that this is purposely opening up an arbitrary code execution, and nothing is done to prevent bad things from happening right now. Be aware of that. Do not use this code on public CI servers.
+There are security implications here in that this is purposely opening up an arbitrary code execution, and nothing is done to prevent bad things from happening right now. Be aware of that. Do not use this code on public CI servers.
 
 
 # License

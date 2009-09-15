@@ -18,6 +18,11 @@ This was originally conceived so the author could have Integrity talk to a scrip
 3. Hit your project in Integrity in a browser and you should be able to
    configure the notifier from there.
 
+# Stuff
+
+* There are security implications here in that this is purposely opening up an arbitrary code execution, and nothing is done to prevent bad things from happening right now. Be aware of that. Do not use this code on public CI servers.
+
+
 # License
 
 (The MIT License)

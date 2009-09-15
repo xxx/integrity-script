@@ -13,6 +13,7 @@ begin
     gemspec.email = "mpd@jesters-court.net"
     gemspec.homepage = "http://github.com/xxx/integrity-script"
     gemspec.authors = ["Michael Dungan"]
+    gemspec.files = FileList['lib/**/*.rb']
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

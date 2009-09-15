@@ -12,11 +12,9 @@ This was originally conceived so the author could have Integrity talk to a scrip
 
 2. In your config.ru add:
 
-        require "rubygems"
         require "integrity/notifier/script"
 
-3. Hit your project in Integrity in a browser and you should be able to
-   configure the notifier from there.
+3. Restart Integrity, then hit your project in a browser to configure the notifier from there.
 
 # Stuff
 

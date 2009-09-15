@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{integrity-script}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Dungan"]
@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
     "README.markdown"
   ]
   s.files = [
-    "lib/integrity/notifier/script.rb"
+    "lib/integrity/notifier/config.haml",
+     "lib/integrity/notifier/script.rb"
   ]
   s.homepage = %q{http://github.com/xxx/integrity-script}
   s.rdoc_options = ["--charset=UTF-8"]

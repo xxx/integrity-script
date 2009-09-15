@@ -20,12 +20,22 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/xxx/integrity-script}
   s.rdoc_options = ["--charset=UTF-8"]
-  s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Integrity notifier that runs an arbitrary script}
   s.test_files = [
     "test/integrity_script_test.rb",
      "test/test_script.rb"
+  ]
+
+  s.files = %w[
+    README.markdown
+    VERSION
+    Rakefile
+    integrity-script.gemspec
+    lib/integrity/notifier/config.haml
+    lib/integrity/notifier/script.rb
+    test/integrity_script_test.rb
+    test/test_script.rb
   ]
 
   if s.respond_to? :specification_version then

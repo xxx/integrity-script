@@ -1,11 +1,6 @@
 require "test/unit"
 require "integrity/notifier/test"
 
-begin
-  require "redgreen"
-rescue LoadError
-end
-
 require File.dirname(__FILE__) + "/../lib/integrity/notifier/script"
 
 class IntegrityScriptTest < Test::Unit::TestCase

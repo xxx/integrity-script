@@ -1,0 +1,8 @@
+%p.normal
+  %label{ :for => "script_notifier_script_path" } Script path (make sure it's readable and executable!)
+  %input.text#script_notifier_script_path{ :name => "notifiers[Script][script_path]", :type => "text", :value => config["script_path"] }
+
+%p.normal
+  %label{ :for => "script_notifier_extra_args" } Extra args, to be added at the end of the invocation.
+  %input.text#script_notifier_extra_args{ :name => "notifiers[Script][extra_args]", :type => "text", :value => config["extra_args"] }
+
